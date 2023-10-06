@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* templeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* templeTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-temple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-temple.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-temple-templeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-temple-templeTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		1265AE8C33EB40B6B0FB6698 /* BodoniModa_9pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7F74AD6534A4F489FA417C3 /* BodoniModa_9pt-Bold.ttf */; };
+		C65EF3982FAC43EF93F14FAE /* BodoniModa_18pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3715DA4640FB41AD9185DCE9 /* BodoniModa_18pt-Black.ttf */; };
+		A88D00943C714581BA5BD160 /* BodoniModa_18pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B782BF38F7164EDBAAB328C1 /* BodoniModa_18pt-BlackItalic.ttf */; };
+		87D0AA7B272C48CBB3842278 /* BodoniModa_18pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E871E3403EDB48D5A8EC9239 /* BodoniModa_18pt-Bold.ttf */; };
+		6B4D6BB052B249109A3F5B5A /* BodoniModa_18pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8878944FE739443BBC42244B /* BodoniModa_18pt-BoldItalic.ttf */; };
+		F2A0AE6130944E39B86D385E /* BodoniModa_18pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EF62EC93E464787BDE7255F /* BodoniModa_18pt-ExtraBold.ttf */; };
+		D2972E3415D34E368066B083 /* BodoniModa_18pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1094F93978647F496DE9CB7 /* BodoniModa_18pt-ExtraBoldItalic.ttf */; };
+		7DDBAADC8C684D7C945063CC /* BodoniModa_18pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED60F56B78040718302664A /* BodoniModa_18pt-Italic.ttf */; };
+		250B3EC00C18428C97FF8E79 /* BodoniModa_18pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A43D741558504BAAA6AC546F /* BodoniModa_18pt-Medium.ttf */; };
+		A2A7E04695FC40D9976D4213 /* BodoniModa_18pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16462667DF2A4943B6ABF279 /* BodoniModa_18pt-MediumItalic.ttf */; };
+		A90B0172E137418FBB667BCB /* BodoniModa_18pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2967D6D551C9460184236A20 /* BodoniModa_18pt-Regular.ttf */; };
+		8F6262CF93D8450BA3F8DE9D /* BodoniModa_18pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F2050D2846246C3BD9FDEB2 /* BodoniModa_18pt-SemiBold.ttf */; };
+		2CAE06AA0B3F4E21AAC0EA04 /* BodoniModa_18pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7232E5852BAD45D098047FA0 /* BodoniModa_18pt-SemiBoldItalic.ttf */; };
+		B2805574B2D9498DBE7FE95A /* BodoniModa_28pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC1AE7AA3FD348E99AFE819F /* BodoniModa_28pt-Black.ttf */; };
+		5F5BEC1473794CD6B0467DD1 /* BodoniModa_28pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1457D9EE341C424A8CE8DCCE /* BodoniModa_28pt-BlackItalic.ttf */; };
+		087D3ABABB7C422999EEDDAB /* BodoniModa_28pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4010132BB49C42D1A4351EFC /* BodoniModa_28pt-Bold.ttf */; };
+		7F0EFA2888B5462AAF7D8AEB /* BodoniModa_28pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FDE0286C6BC4B4387AF9D92 /* BodoniModa_28pt-BoldItalic.ttf */; };
+		2BE74C209471440D9DD5262F /* BodoniModa_28pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A9192EA063C4E3984C60F58 /* BodoniModa_28pt-ExtraBold.ttf */; };
+		03446D9A64AD4E879E2ADF75 /* BodoniModa_28pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7004DFCF09DE48A7A032049C /* BodoniModa_28pt-ExtraBoldItalic.ttf */; };
+		543ABFF13C4E4A35B6C19031 /* BodoniModa_28pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF34BD355CB34552A9527514 /* BodoniModa_28pt-Italic.ttf */; };
+		7FD88AB579FB4C5A92DA11D5 /* BodoniModa_28pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F03E82D2C794C9D8B6765A1 /* BodoniModa_28pt-Medium.ttf */; };
+		500AE0584288443D94312A97 /* BodoniModa_28pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4711AF799384221ABE0EF8C /* BodoniModa_28pt-MediumItalic.ttf */; };
+		40D7CD15C9964D9293046009 /* BodoniModa_28pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96702B000A4E4F4B8DED565A /* BodoniModa_28pt-Regular.ttf */; };
+		F6A10655CE764C1C90F29AD8 /* BodoniModa_28pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B70EE2F30B840F382ADD29C /* BodoniModa_28pt-SemiBold.ttf */; };
+		A1EB83DCB59048D6BBC4425A /* BodoniModa_28pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B788B53FBAF4D69B5F54AC2 /* BodoniModa_28pt-SemiBoldItalic.ttf */; };
+		41EA01F7746644DCB76CF992 /* BodoniModa_48pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B27F0B6B457488AA7F547E5 /* BodoniModa_48pt-Black.ttf */; };
+		186C6FE91D8745ACA7DD0CB0 /* BodoniModa_48pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEE5EBE44A064D5AA11DE9EF /* BodoniModa_48pt-BlackItalic.ttf */; };
+		E7D7FE39C5B84A5BA62DED51 /* BodoniModa_48pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F5D01FE4BE64AF590940BD8 /* BodoniModa_48pt-Bold.ttf */; };
+		3EF1F869A9E349E1AF3C6802 /* BodoniModa_48pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6B04D7253834949A8E8D6EB /* BodoniModa_48pt-BoldItalic.ttf */; };
+		47A3DC5B08414F59A94D9FB0 /* BodoniModa_48pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4745F7BCBE2C4DEBAC728F4B /* BodoniModa_48pt-ExtraBold.ttf */; };
+		76D7546403F74A4BAB9912DE /* BodoniModa_48pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A924A601A9274295A842BE24 /* BodoniModa_48pt-ExtraBoldItalic.ttf */; };
+		3B2E5F1B0A924D4F8A601656 /* BodoniModa_48pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47D4FE77E4EB4F72A81E5D0D /* BodoniModa_48pt-Italic.ttf */; };
+		77BAC292D1ED46DB95919E38 /* BodoniModa_48pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C9F6F9E1AD74355B63865E1 /* BodoniModa_48pt-Medium.ttf */; };
+		B666793BDCFA4D47A530EDB8 /* BodoniModa_48pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984B2A0632E741CA8FA571E2 /* BodoniModa_48pt-MediumItalic.ttf */; };
+		B81C5584E58F4CE0B5311C2E /* BodoniModa_48pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83F0074F751D4A65A3D0666E /* BodoniModa_48pt-Regular.ttf */; };
+		E950BACAF24440F6B628D148 /* BodoniModa_48pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB6A10CC827435797430D5F /* BodoniModa_48pt-SemiBold.ttf */; };
+		42A00056EECC44E4B9F417B6 /* BodoniModa_48pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 109C4ACBBEA046D5A3566334 /* BodoniModa_48pt-SemiBoldItalic.ttf */; };
+		D6A5BB867D604FC98D295517 /* BodoniModa_72pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 317DEF9C5BC84579B603C89C /* BodoniModa_72pt-Black.ttf */; };
+		DFFC96777476482992E63B4D /* BodoniModa_72pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C568BDB2303744A2B657D3BF /* BodoniModa_72pt-BlackItalic.ttf */; };
+		25ACC288047F4D74A5712D53 /* BodoniModa_72pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4787D39084FC42D08DB8FDB1 /* BodoniModa_72pt-Bold.ttf */; };
+		880A1E036AA2406D853F01BD /* BodoniModa_72pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21FFCDEBB3E949CCA8CF4F4C /* BodoniModa_72pt-BoldItalic.ttf */; };
+		67514962D6E24723BDE06A88 /* BodoniModa_72pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AAA9C5C1F8C48B5A9ED0B1D /* BodoniModa_72pt-ExtraBold.ttf */; };
+		3EA26DE2F3DD4D1281341570 /* BodoniModa_72pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD8F149617D44FE58937E2C8 /* BodoniModa_72pt-ExtraBoldItalic.ttf */; };
+		08AD1C89305A4A43A9211801 /* BodoniModa_72pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BB0BF02A264488F85854AA3 /* BodoniModa_72pt-Italic.ttf */; };
+		17DA8D9A26AE4E9BA81953F8 /* BodoniModa_72pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5A5E7BCFB646F4B50C3A46 /* BodoniModa_72pt-Medium.ttf */; };
+		4CF2BA4F6C0543AF89E225A4 /* BodoniModa_72pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDA23ADA3D494846B11A15F3 /* BodoniModa_72pt-MediumItalic.ttf */; };
+		24FFAD852493425A8DD8D020 /* BodoniModa_72pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0390328416E649BA8421E202 /* BodoniModa_72pt-Regular.ttf */; };
+		4ADCB08E5FC24FE285630321 /* BodoniModa_72pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 560D5A3E45494EE884D22F04 /* BodoniModa_72pt-SemiBold.ttf */; };
+		5E46204DAACB49FF80A8EE7A /* BodoniModa_72pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C4F5E1D20054BB1A9AA19B4 /* BodoniModa_72pt-SemiBoldItalic.ttf */; };
+		B76580679C544FB1BF8CAB7A /* BodoniModa_9pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF140D033104EB2B49DFD22 /* BodoniModa_9pt-BlackItalic.ttf */; };
+		47EC3B64E01745F0B9083A43 /* BodoniModa_9pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61EECC99557E4CFA9CE779E5 /* BodoniModa_9pt-ExtraBold.ttf */; };
+		F0076F81F3094C7387F28B3F /* BodoniModa_9pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4630A1AE7E074305A8D55766 /* BodoniModa_9pt-ExtraBoldItalic.ttf */; };
+		F12AD41677A148D1838FAAC5 /* BodoniModa_9pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 696C3DF7804D4691A0491EDB /* BodoniModa_9pt-Italic.ttf */; };
+		F55C38F9A4CB48249E1419D6 /* BodoniModa_9pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45A517DFB7AB431B910BD66D /* BodoniModa_9pt-Medium.ttf */; };
+		3DDF6866CF9C4E4FB71715C6 /* BodoniModa_9pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F284212E8FD4566B1BB1C0C /* BodoniModa_9pt-MediumItalic.ttf */; };
+		92CD46D902AC427E81DB761A /* BodoniModa_9pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6ACF61A183C94ADE9E9DF630 /* BodoniModa_9pt-Regular.ttf */; };
+		A660B5CF3D9149068CF95353 /* BodoniModa_9pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BF039F872459C97E2482C /* BodoniModa_9pt-SemiBold.ttf */; };
+		AB4A5A32FED34AC5B0A80208 /* BodoniModa_9pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63D4212FE5364547AB339BF8 /* BodoniModa_9pt-SemiBoldItalic.ttf */; };
+		F90243CEFEA3434789B072A8 /* BodoniModa_9pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B8BB7E57814413D97CC817E /* BodoniModa_9pt-BoldItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = temple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* templeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = templeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* templeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = templeTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* temple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = temple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = temple/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = temple/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = temple/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = temple/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = temple/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-temple-templeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-temple-templeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-temple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-temple.debug.xcconfig"; path = "Target Support Files/Pods-temple/Pods-temple.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-temple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-temple.release.xcconfig"; path = "Target Support Files/Pods-temple/Pods-temple.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-temple-templeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-temple-templeTests.debug.xcconfig"; path = "Target Support Files/Pods-temple-templeTests/Pods-temple-templeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-temple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-temple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = temple/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-temple-templeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-temple-templeTests.release.xcconfig"; path = "Target Support Files/Pods-temple-templeTests/Pods-temple-templeTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F7F74AD6534A4F489FA417C3 /* BodoniModa_9pt-Bold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-Bold.ttf"; path = "../assets/fonts/BodoniModa_9pt-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3715DA4640FB41AD9185DCE9 /* BodoniModa_18pt-Black.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-Black.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_18pt-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B782BF38F7164EDBAAB328C1 /* BodoniModa_18pt-BlackItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-BlackItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_18pt-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E871E3403EDB48D5A8EC9239 /* BodoniModa_18pt-Bold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-Bold.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_18pt-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8878944FE739443BBC42244B /* BodoniModa_18pt-BoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-BoldItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_18pt-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5EF62EC93E464787BDE7255F /* BodoniModa_18pt-ExtraBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-ExtraBold.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C1094F93978647F496DE9CB7 /* BodoniModa_18pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4ED60F56B78040718302664A /* BodoniModa_18pt-Italic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-Italic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_18pt-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A43D741558504BAAA6AC546F /* BodoniModa_18pt-Medium.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-Medium.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_18pt-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		16462667DF2A4943B6ABF279 /* BodoniModa_18pt-MediumItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-MediumItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_18pt-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2967D6D551C9460184236A20 /* BodoniModa_18pt-Regular.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-Regular.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_18pt-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8F2050D2846246C3BD9FDEB2 /* BodoniModa_18pt-SemiBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-SemiBold.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7232E5852BAD45D098047FA0 /* BodoniModa_18pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-SemiBoldItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC1AE7AA3FD348E99AFE819F /* BodoniModa_28pt-Black.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-Black.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_28pt-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1457D9EE341C424A8CE8DCCE /* BodoniModa_28pt-BlackItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-BlackItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_28pt-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4010132BB49C42D1A4351EFC /* BodoniModa_28pt-Bold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-Bold.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_28pt-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0FDE0286C6BC4B4387AF9D92 /* BodoniModa_28pt-BoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-BoldItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_28pt-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5A9192EA063C4E3984C60F58 /* BodoniModa_28pt-ExtraBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-ExtraBold.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7004DFCF09DE48A7A032049C /* BodoniModa_28pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CF34BD355CB34552A9527514 /* BodoniModa_28pt-Italic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-Italic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_28pt-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2F03E82D2C794C9D8B6765A1 /* BodoniModa_28pt-Medium.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-Medium.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_28pt-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E4711AF799384221ABE0EF8C /* BodoniModa_28pt-MediumItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-MediumItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_28pt-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		96702B000A4E4F4B8DED565A /* BodoniModa_28pt-Regular.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-Regular.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_28pt-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9B70EE2F30B840F382ADD29C /* BodoniModa_28pt-SemiBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-SemiBold.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6B788B53FBAF4D69B5F54AC2 /* BodoniModa_28pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-SemiBoldItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9B27F0B6B457488AA7F547E5 /* BodoniModa_48pt-Black.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-Black.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_48pt-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AEE5EBE44A064D5AA11DE9EF /* BodoniModa_48pt-BlackItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-BlackItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_48pt-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7F5D01FE4BE64AF590940BD8 /* BodoniModa_48pt-Bold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-Bold.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_48pt-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E6B04D7253834949A8E8D6EB /* BodoniModa_48pt-BoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-BoldItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_48pt-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4745F7BCBE2C4DEBAC728F4B /* BodoniModa_48pt-ExtraBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-ExtraBold.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A924A601A9274295A842BE24 /* BodoniModa_48pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		47D4FE77E4EB4F72A81E5D0D /* BodoniModa_48pt-Italic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-Italic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_48pt-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4C9F6F9E1AD74355B63865E1 /* BodoniModa_48pt-Medium.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-Medium.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_48pt-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		984B2A0632E741CA8FA571E2 /* BodoniModa_48pt-MediumItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-MediumItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_48pt-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		83F0074F751D4A65A3D0666E /* BodoniModa_48pt-Regular.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-Regular.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_48pt-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ECB6A10CC827435797430D5F /* BodoniModa_48pt-SemiBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-SemiBold.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		109C4ACBBEA046D5A3566334 /* BodoniModa_48pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-SemiBoldItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		317DEF9C5BC84579B603C89C /* BodoniModa_72pt-Black.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-Black.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_72pt-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C568BDB2303744A2B657D3BF /* BodoniModa_72pt-BlackItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-BlackItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_72pt-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4787D39084FC42D08DB8FDB1 /* BodoniModa_72pt-Bold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-Bold.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_72pt-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		21FFCDEBB3E949CCA8CF4F4C /* BodoniModa_72pt-BoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-BoldItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_72pt-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9AAA9C5C1F8C48B5A9ED0B1D /* BodoniModa_72pt-ExtraBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-ExtraBold.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD8F149617D44FE58937E2C8 /* BodoniModa_72pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8BB0BF02A264488F85854AA3 /* BodoniModa_72pt-Italic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-Italic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_72pt-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CF5A5E7BCFB646F4B50C3A46 /* BodoniModa_72pt-Medium.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-Medium.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_72pt-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DDA23ADA3D494846B11A15F3 /* BodoniModa_72pt-MediumItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-MediumItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_72pt-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0390328416E649BA8421E202 /* BodoniModa_72pt-Regular.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-Regular.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_72pt-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		560D5A3E45494EE884D22F04 /* BodoniModa_72pt-SemiBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-SemiBold.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6C4F5E1D20054BB1A9AA19B4 /* BodoniModa_72pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-SemiBoldItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9FF140D033104EB2B49DFD22 /* BodoniModa_9pt-BlackItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-BlackItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_9pt-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		61EECC99557E4CFA9CE779E5 /* BodoniModa_9pt-ExtraBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-ExtraBold.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4630A1AE7E074305A8D55766 /* BodoniModa_9pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		696C3DF7804D4691A0491EDB /* BodoniModa_9pt-Italic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-Italic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_9pt-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		45A517DFB7AB431B910BD66D /* BodoniModa_9pt-Medium.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-Medium.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_9pt-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F284212E8FD4566B1BB1C0C /* BodoniModa_9pt-MediumItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-MediumItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_9pt-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6ACF61A183C94ADE9E9DF630 /* BodoniModa_9pt-Regular.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-Regular.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_9pt-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0A0BF039F872459C97E2482C /* BodoniModa_9pt-SemiBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-SemiBold.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		63D4212FE5364547AB339BF8 /* BodoniModa_9pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-SemiBoldItalic.ttf"; path = "../assets/fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B8BB7E57814413D97CC817E /* BodoniModa_9pt-BoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-BoldItalic.ttf"; path = "../assets/fonts/BodoniModa_9pt-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-temple-templeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-temple.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* templeTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* templeTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = templeTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* temple */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = temple;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-temple.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-temple-templeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* temple */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* templeTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				7B97FBC9DCDD41D7906F81DB /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* temple.app */,
+				00E356EE1AD99517003FC87E /* templeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-temple.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-temple.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-temple-templeTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-temple-templeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7B97FBC9DCDD41D7906F81DB /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				F7F74AD6534A4F489FA417C3 /* BodoniModa_9pt-Bold.ttf */,
+				3715DA4640FB41AD9185DCE9 /* BodoniModa_18pt-Black.ttf */,
+				B782BF38F7164EDBAAB328C1 /* BodoniModa_18pt-BlackItalic.ttf */,
+				E871E3403EDB48D5A8EC9239 /* BodoniModa_18pt-Bold.ttf */,
+				8878944FE739443BBC42244B /* BodoniModa_18pt-BoldItalic.ttf */,
+				5EF62EC93E464787BDE7255F /* BodoniModa_18pt-ExtraBold.ttf */,
+				C1094F93978647F496DE9CB7 /* BodoniModa_18pt-ExtraBoldItalic.ttf */,
+				4ED60F56B78040718302664A /* BodoniModa_18pt-Italic.ttf */,
+				A43D741558504BAAA6AC546F /* BodoniModa_18pt-Medium.ttf */,
+				16462667DF2A4943B6ABF279 /* BodoniModa_18pt-MediumItalic.ttf */,
+				2967D6D551C9460184236A20 /* BodoniModa_18pt-Regular.ttf */,
+				8F2050D2846246C3BD9FDEB2 /* BodoniModa_18pt-SemiBold.ttf */,
+				7232E5852BAD45D098047FA0 /* BodoniModa_18pt-SemiBoldItalic.ttf */,
+				CC1AE7AA3FD348E99AFE819F /* BodoniModa_28pt-Black.ttf */,
+				1457D9EE341C424A8CE8DCCE /* BodoniModa_28pt-BlackItalic.ttf */,
+				4010132BB49C42D1A4351EFC /* BodoniModa_28pt-Bold.ttf */,
+				0FDE0286C6BC4B4387AF9D92 /* BodoniModa_28pt-BoldItalic.ttf */,
+				5A9192EA063C4E3984C60F58 /* BodoniModa_28pt-ExtraBold.ttf */,
+				7004DFCF09DE48A7A032049C /* BodoniModa_28pt-ExtraBoldItalic.ttf */,
+				CF34BD355CB34552A9527514 /* BodoniModa_28pt-Italic.ttf */,
+				2F03E82D2C794C9D8B6765A1 /* BodoniModa_28pt-Medium.ttf */,
+				E4711AF799384221ABE0EF8C /* BodoniModa_28pt-MediumItalic.ttf */,
+				96702B000A4E4F4B8DED565A /* BodoniModa_28pt-Regular.ttf */,
+				9B70EE2F30B840F382ADD29C /* BodoniModa_28pt-SemiBold.ttf */,
+				6B788B53FBAF4D69B5F54AC2 /* BodoniModa_28pt-SemiBoldItalic.ttf */,
+				9B27F0B6B457488AA7F547E5 /* BodoniModa_48pt-Black.ttf */,
+				AEE5EBE44A064D5AA11DE9EF /* BodoniModa_48pt-BlackItalic.ttf */,
+				7F5D01FE4BE64AF590940BD8 /* BodoniModa_48pt-Bold.ttf */,
+				E6B04D7253834949A8E8D6EB /* BodoniModa_48pt-BoldItalic.ttf */,
+				4745F7BCBE2C4DEBAC728F4B /* BodoniModa_48pt-ExtraBold.ttf */,
+				A924A601A9274295A842BE24 /* BodoniModa_48pt-ExtraBoldItalic.ttf */,
+				47D4FE77E4EB4F72A81E5D0D /* BodoniModa_48pt-Italic.ttf */,
+				4C9F6F9E1AD74355B63865E1 /* BodoniModa_48pt-Medium.ttf */,
+				984B2A0632E741CA8FA571E2 /* BodoniModa_48pt-MediumItalic.ttf */,
+				83F0074F751D4A65A3D0666E /* BodoniModa_48pt-Regular.ttf */,
+				ECB6A10CC827435797430D5F /* BodoniModa_48pt-SemiBold.ttf */,
+				109C4ACBBEA046D5A3566334 /* BodoniModa_48pt-SemiBoldItalic.ttf */,
+				317DEF9C5BC84579B603C89C /* BodoniModa_72pt-Black.ttf */,
+				C568BDB2303744A2B657D3BF /* BodoniModa_72pt-BlackItalic.ttf */,
+				4787D39084FC42D08DB8FDB1 /* BodoniModa_72pt-Bold.ttf */,
+				21FFCDEBB3E949CCA8CF4F4C /* BodoniModa_72pt-BoldItalic.ttf */,
+				9AAA9C5C1F8C48B5A9ED0B1D /* BodoniModa_72pt-ExtraBold.ttf */,
+				CD8F149617D44FE58937E2C8 /* BodoniModa_72pt-ExtraBoldItalic.ttf */,
+				8BB0BF02A264488F85854AA3 /* BodoniModa_72pt-Italic.ttf */,
+				CF5A5E7BCFB646F4B50C3A46 /* BodoniModa_72pt-Medium.ttf */,
+				DDA23ADA3D494846B11A15F3 /* BodoniModa_72pt-MediumItalic.ttf */,
+				0390328416E649BA8421E202 /* BodoniModa_72pt-Regular.ttf */,
+				560D5A3E45494EE884D22F04 /* BodoniModa_72pt-SemiBold.ttf */,
+				6C4F5E1D20054BB1A9AA19B4 /* BodoniModa_72pt-SemiBoldItalic.ttf */,
+				9FF140D033104EB2B49DFD22 /* BodoniModa_9pt-BlackItalic.ttf */,
+				61EECC99557E4CFA9CE779E5 /* BodoniModa_9pt-ExtraBold.ttf */,
+				4630A1AE7E074305A8D55766 /* BodoniModa_9pt-ExtraBoldItalic.ttf */,
+				696C3DF7804D4691A0491EDB /* BodoniModa_9pt-Italic.ttf */,
+				45A517DFB7AB431B910BD66D /* BodoniModa_9pt-Medium.ttf */,
+				0F284212E8FD4566B1BB1C0C /* BodoniModa_9pt-MediumItalic.ttf */,
+				6ACF61A183C94ADE9E9DF630 /* BodoniModa_9pt-Regular.ttf */,
+				0A0BF039F872459C97E2482C /* BodoniModa_9pt-SemiBold.ttf */,
+				63D4212FE5364547AB339BF8 /* BodoniModa_9pt-SemiBoldItalic.ttf */,
+				3B8BB7E57814413D97CC817E /* BodoniModa_9pt-BoldItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* templeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "templeTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = templeTests;
+			productName = templeTests;
+			productReference = 00E356EE1AD99517003FC87E /* templeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* temple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "temple" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = temple;
+			productName = temple;
+			productReference = 13B07F961A680F5B00A75B9A /* temple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "temple" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* temple */,
+				00E356ED1AD99517003FC87E /* templeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1265AE8C33EB40B6B0FB6698 /* BodoniModa_9pt-Bold.ttf in Resources */,
+				C65EF3982FAC43EF93F14FAE /* BodoniModa_18pt-Black.ttf in Resources */,
+				A88D00943C714581BA5BD160 /* BodoniModa_18pt-BlackItalic.ttf in Resources */,
+				87D0AA7B272C48CBB3842278 /* BodoniModa_18pt-Bold.ttf in Resources */,
+				6B4D6BB052B249109A3F5B5A /* BodoniModa_18pt-BoldItalic.ttf in Resources */,
+				F2A0AE6130944E39B86D385E /* BodoniModa_18pt-ExtraBold.ttf in Resources */,
+				D2972E3415D34E368066B083 /* BodoniModa_18pt-ExtraBoldItalic.ttf in Resources */,
+				7DDBAADC8C684D7C945063CC /* BodoniModa_18pt-Italic.ttf in Resources */,
+				250B3EC00C18428C97FF8E79 /* BodoniModa_18pt-Medium.ttf in Resources */,
+				A2A7E04695FC40D9976D4213 /* BodoniModa_18pt-MediumItalic.ttf in Resources */,
+				A90B0172E137418FBB667BCB /* BodoniModa_18pt-Regular.ttf in Resources */,
+				8F6262CF93D8450BA3F8DE9D /* BodoniModa_18pt-SemiBold.ttf in Resources */,
+				2CAE06AA0B3F4E21AAC0EA04 /* BodoniModa_18pt-SemiBoldItalic.ttf in Resources */,
+				B2805574B2D9498DBE7FE95A /* BodoniModa_28pt-Black.ttf in Resources */,
+				5F5BEC1473794CD6B0467DD1 /* BodoniModa_28pt-BlackItalic.ttf in Resources */,
+				087D3ABABB7C422999EEDDAB /* BodoniModa_28pt-Bold.ttf in Resources */,
+				7F0EFA2888B5462AAF7D8AEB /* BodoniModa_28pt-BoldItalic.ttf in Resources */,
+				2BE74C209471440D9DD5262F /* BodoniModa_28pt-ExtraBold.ttf in Resources */,
+				03446D9A64AD4E879E2ADF75 /* BodoniModa_28pt-ExtraBoldItalic.ttf in Resources */,
+				543ABFF13C4E4A35B6C19031 /* BodoniModa_28pt-Italic.ttf in Resources */,
+				7FD88AB579FB4C5A92DA11D5 /* BodoniModa_28pt-Medium.ttf in Resources */,
+				500AE0584288443D94312A97 /* BodoniModa_28pt-MediumItalic.ttf in Resources */,
+				40D7CD15C9964D9293046009 /* BodoniModa_28pt-Regular.ttf in Resources */,
+				F6A10655CE764C1C90F29AD8 /* BodoniModa_28pt-SemiBold.ttf in Resources */,
+				A1EB83DCB59048D6BBC4425A /* BodoniModa_28pt-SemiBoldItalic.ttf in Resources */,
+				41EA01F7746644DCB76CF992 /* BodoniModa_48pt-Black.ttf in Resources */,
+				186C6FE91D8745ACA7DD0CB0 /* BodoniModa_48pt-BlackItalic.ttf in Resources */,
+				E7D7FE39C5B84A5BA62DED51 /* BodoniModa_48pt-Bold.ttf in Resources */,
+				3EF1F869A9E349E1AF3C6802 /* BodoniModa_48pt-BoldItalic.ttf in Resources */,
+				47A3DC5B08414F59A94D9FB0 /* BodoniModa_48pt-ExtraBold.ttf in Resources */,
+				76D7546403F74A4BAB9912DE /* BodoniModa_48pt-ExtraBoldItalic.ttf in Resources */,
+				3B2E5F1B0A924D4F8A601656 /* BodoniModa_48pt-Italic.ttf in Resources */,
+				77BAC292D1ED46DB95919E38 /* BodoniModa_48pt-Medium.ttf in Resources */,
+				B666793BDCFA4D47A530EDB8 /* BodoniModa_48pt-MediumItalic.ttf in Resources */,
+				B81C5584E58F4CE0B5311C2E /* BodoniModa_48pt-Regular.ttf in Resources */,
+				E950BACAF24440F6B628D148 /* BodoniModa_48pt-SemiBold.ttf in Resources */,
+				42A00056EECC44E4B9F417B6 /* BodoniModa_48pt-SemiBoldItalic.ttf in Resources */,
+				D6A5BB867D604FC98D295517 /* BodoniModa_72pt-Black.ttf in Resources */,
+				DFFC96777476482992E63B4D /* BodoniModa_72pt-BlackItalic.ttf in Resources */,
+				25ACC288047F4D74A5712D53 /* BodoniModa_72pt-Bold.ttf in Resources */,
+				880A1E036AA2406D853F01BD /* BodoniModa_72pt-BoldItalic.ttf in Resources */,
+				67514962D6E24723BDE06A88 /* BodoniModa_72pt-ExtraBold.ttf in Resources */,
+				3EA26DE2F3DD4D1281341570 /* BodoniModa_72pt-ExtraBoldItalic.ttf in Resources */,
+				08AD1C89305A4A43A9211801 /* BodoniModa_72pt-Italic.ttf in Resources */,
+				17DA8D9A26AE4E9BA81953F8 /* BodoniModa_72pt-Medium.ttf in Resources */,
+				4CF2BA4F6C0543AF89E225A4 /* BodoniModa_72pt-MediumItalic.ttf in Resources */,
+				24FFAD852493425A8DD8D020 /* BodoniModa_72pt-Regular.ttf in Resources */,
+				4ADCB08E5FC24FE285630321 /* BodoniModa_72pt-SemiBold.ttf in Resources */,
+				5E46204DAACB49FF80A8EE7A /* BodoniModa_72pt-SemiBoldItalic.ttf in Resources */,
+				B76580679C544FB1BF8CAB7A /* BodoniModa_9pt-BlackItalic.ttf in Resources */,
+				47EC3B64E01745F0B9083A43 /* BodoniModa_9pt-ExtraBold.ttf in Resources */,
+				F0076F81F3094C7387F28B3F /* BodoniModa_9pt-ExtraBoldItalic.ttf in Resources */,
+				F12AD41677A148D1838FAAC5 /* BodoniModa_9pt-Italic.ttf in Resources */,
+				F55C38F9A4CB48249E1419D6 /* BodoniModa_9pt-Medium.ttf in Resources */,
+				3DDF6866CF9C4E4FB71715C6 /* BodoniModa_9pt-MediumItalic.ttf in Resources */,
+				92CD46D902AC427E81DB761A /* BodoniModa_9pt-Regular.ttf in Resources */,
+				A660B5CF3D9149068CF95353 /* BodoniModa_9pt-SemiBold.ttf in Resources */,
+				AB4A5A32FED34AC5B0A80208 /* BodoniModa_9pt-SemiBoldItalic.ttf in Resources */,
+				F90243CEFEA3434789B072A8 /* BodoniModa_9pt-BoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-temple/Pods-temple-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-temple/Pods-temple-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-temple/Pods-temple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-temple-templeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-temple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-temple-templeTests/Pods-temple-templeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-temple-templeTests/Pods-temple-templeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-temple-templeTests/Pods-temple-templeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-temple/Pods-temple-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-temple/Pods-temple-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-temple/Pods-temple-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-temple-templeTests/Pods-temple-templeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-temple-templeTests/Pods-temple-templeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-temple-templeTests/Pods-temple-templeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* templeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* temple */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-temple-templeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = templeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/temple.app/temple";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-temple-templeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = templeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/temple.app/temple";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-temple.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = temple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = temple;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-temple.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = temple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = temple;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "templeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "temple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "temple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
